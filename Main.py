@@ -13,7 +13,7 @@ class Stack:
     def is_full(self):
         if self.top == (self.size - 1) :
             return 1
-         else :
+        else :
             return 0
 
     def push(self, data):
@@ -30,7 +30,7 @@ class Stack:
     def status(self):
         if self.isEmpty()!=1:
             for i in range(0,self.top+1):
-            print(self.items[i])    
+                print(self.items[i])    
 
 # Do not change the following code
 size, queries = map(int, input().rstrip().split())
